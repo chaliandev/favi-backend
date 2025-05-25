@@ -41,9 +41,9 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "https://www.favipañalera.com/succes.html",
-        failure: "https://www.favipañalera.com/failure.html",
-        pending: "https://www.favipañalera.com/pending.html",
+         success: "https://www.favipañalera.com/pages/carrito/succes.html",
+        failure: "https://www.favipañalera.com/pages/carrito/failure.html",
+        pending: "https://www.favipañalera.com/pages/carrito/pending.html",
       },
       auto_return: "approved",
       external_reference: "FAVI-" + Date.now(),
