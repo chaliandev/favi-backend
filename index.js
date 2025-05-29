@@ -4,7 +4,7 @@ import cors from "cors";
 // SDK de Mercado Pago
 import { MercadoPagoConfig, Preference } from "mercadopago";
 const client = new MercadoPagoConfig({
-  accessToken: "APP_USR-6545873112910127-052505-e7ca50b76c404fbae921fcc243571a68-2458411508",
+  accessToken: "APP_USR-9003014782940362-052319-478e129215efbcfb77fbc2583e6420fd-1034747647",
 });
 
 const app = express();
